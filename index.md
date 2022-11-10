@@ -46,10 +46,9 @@ After powering on the VM (it might take a while), complete the following steps:
 6. On the Who are you? page, enter information for each field and hit Continue.
 **Note:** It is recommended to require your password to log in on each attempt and not to login automatically.
 
-7. Let the installation process finish (it may take a while).
+7. Let the installation process finish (it may take a while). Once the Installation Complete page appears, hit Restart Now.
 
-
-After finishing the installation process, you will be able to finally use your VM!
+8. After the VM restarts, you will now be able to login into your VM!
 
 # Install Docker
 Docker is a platform that allows for operating-system level virtualization in packages called containers.
@@ -206,3 +205,7 @@ This was my Admin Interface:
 ![Ubuntu 64-bit (2)-2022-11-08-10-17-33](https://user-images.githubusercontent.com/114512130/201168986-198c963f-cc65-40ab-8c11-eeddf301c231.png)
 
 Afterwards, you should be able to make a WordPress page!
+
+This was my WordPress page:
+
+
