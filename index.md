@@ -85,7 +85,9 @@ This was my Docker Compose version:
 
 ![Ubuntu 64-bit (2)-2022-11-10-10-07-22](https://user-images.githubusercontent.com/114512130/201163472-062faeb6-04d0-4208-9c48-6d84b25f64ec.png)
 
-**Note:** I used the following references, https://linuxiac.com/wordpress-with-docker/ and https://www.linode.com/docs/guides/wordpress-with-docker-compose/, for the remaining steps. 
+## Note
+
+I used the following references, [https://linuxiac.com/wordpress-with-docker/](url) and [https://www.linode.com/docs/guides/wordpress-with-docker-compose/](url), for the remaining steps. 
 
 # Create a directory
 
