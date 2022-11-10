@@ -108,7 +108,7 @@ cd /srv/wordpress
 # Create a YAML file
 YAML files are used for configuration processes, including applications that deal with storing and transmitting data. Here, a YAML file is used to deal with the transmission of data for the WordPress application.
 
-While in the WordPress directory, you will need to install a text editor (nano, vim, etc). I chose to use vim.
+While in the WordPress directory, you will need to install a text editor (nano, vim, vi, etc.). I chose to use vim.
 
 The following command will install vim:
 ```
@@ -192,7 +192,7 @@ sudo docker-compose up -d
 
 # Accessing WordPress
 
-To access WordPress, open up a web browser of your choice and enter either http://localhost:8080 or [http://your_ip_address:8080](url) in your url bar.
+To access WordPress, open up a web browser of your choice and enter either [http://localhost:8080](url) or [http://your_ip_address:8080](url) in your url bar.
 
 This is what my WordPress page looked like for both choices (they have the same interface):
 
