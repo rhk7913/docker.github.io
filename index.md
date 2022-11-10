@@ -32,7 +32,7 @@ Hit finish and power on the VM.
 
 After powering on the VM (it might take a while), complete the following steps:
 
-1. Enter your desired keyboard (I used English (US)) and hit Continue.
+1. On the Choose the correct keyboard layout page, select your desired keyboard (I used English (US)) and hit Continue.
 
 2. On the Updates and Other Software page, select Normal Installation for "What apps would you like to install to start with?" and Download updates while installing Ubuntu for "Other options" and hit Continue. 
 
