@@ -4,11 +4,11 @@ Here is a link to my repo: https://github.com/rhk7913/docker.github.io
 This page will outline how to install WordPress through Docker and Docker Compose
 
 # Pre-installation
-You will need to download the latest version of Ubuntu to have a VM to install WordPress.
+You will need to download the latest version of Ubuntu to install and use WordPress on VM.
 
 I used the following link to install a Ubuntu 22.04 LTS .iso file: https://releases.ubuntu.com/22.04/
 
-After the .iso file downloads (it might take a while), open up VMware Workstation.
+After the .iso file downloads (it might take a while since it had a size of 3.9 GB), open up VMware Workstation.
 
 Locate "File" in the upper left hand corner.
 
