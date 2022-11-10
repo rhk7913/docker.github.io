@@ -205,6 +205,10 @@ This was my Admin Interface:
 
 Afterwards, you should be able to make a WordPress page!
 
-This was my WordPress page:
+This was my WordPress page on the VM:
 
+![Ubuntu 64-bit (2)-2022-11-10-14-56-18](https://user-images.githubusercontent.com/114512130/201204212-6f8f0582-ada6-4670-a5e4-c295fdbc6eac.png)
 
+This was my WordPress page outside of my VM:
+
+![Website](https://user-images.githubusercontent.com/114512130/201203264-a95f1ffe-f2de-425f-adc3-f0b6d730da5a.png)
