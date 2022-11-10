@@ -37,6 +37,7 @@ After powering on the VM (it might take a while), complete the following steps:
 2. On the Updates and Other Software page, select Normal Installation for "What apps would you like to install to start with?" and Download updates while installing Ubuntu for "Other options" and hit Continue. 
 
 3. On the Installation Type page, select Erase disk and install Ubuntu and hit Install Now.
+
 **Note:** Erase disk and install Ubuntu will only erase the content on the VM since it is isolated.
 
 4. On the Write the changes to disks page, hit Continue.
