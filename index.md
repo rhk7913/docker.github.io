@@ -185,14 +185,16 @@ sudo docker-compose up -d
 
 # Accessing WordPress
 
-To access WordPress, open up a web browser of your choice and enter either http://localhost:8080 or http://your_ip_address:8080 in your url bar.
+To access WordPress, open up a web browser of your choice and enter either http://localhost:8080 or [http://your_ip_address:8080](url) in your url bar.
 
 This is what my WordPress page looked like for both choices (they have the same interface):
 
 http://localhost:8080: 
+
 ![Ubuntu 64-bit (2)-2022-11-08-10-12-34](https://user-images.githubusercontent.com/114512130/201168213-16f98f37-b38f-411e-aa70-6ee82cf423a6.png)
 
-http://your_ip_address:8080 (My ip address was 192.168.246.135): 
+[http://your_ip_address:8080](url) (My ip address was 192.168.246.135): 
+
 ![Ubuntu 64-bit (2)-2022-11-08-10-15-18](https://user-images.githubusercontent.com/114512130/201168249-da873852-0229-42be-a1bc-97dd372edc29.png)
 
 After navigating to the WordPress page, follow the instructions on the screen and make a WordPress account. 
@@ -200,6 +202,7 @@ After navigating to the WordPress page, follow the instructions on the screen an
 After creating a WordPress account, you should have access to a Admin Interface.
 
 This was my Admin Interface:
+
 ![Ubuntu 64-bit (2)-2022-11-08-10-17-33](https://user-images.githubusercontent.com/114512130/201168986-198c963f-cc65-40ab-8c11-eeddf301c231.png)
 
 Afterwards, you should be able to make a WordPress page!
