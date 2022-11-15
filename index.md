@@ -84,7 +84,7 @@ This was my Docker Compose version:
 
 ![Ubuntu 64-bit (2)-2022-11-10-10-07-22](https://user-images.githubusercontent.com/114512130/201163472-062faeb6-04d0-4208-9c48-6d84b25f64ec.png)
 
-# Note
+# Note (References)
 
 I used the following references, [https://linuxiac.com/wordpress-with-docker/](url) and [https://www.linode.com/docs/guides/wordpress-with-docker-compose/](url), for the remaining steps. 
 
@@ -213,10 +213,10 @@ This was my Admin Interface:
 
 Afterwards, you should be able to make a WordPress page!
 
-This was my created WordPress page on the VM:
+This was my created WordPress page on my VM:
 
 ![Ubuntu 64-bit (2)-2022-11-10-14-56-18](https://user-images.githubusercontent.com/114512130/201204212-6f8f0582-ada6-4670-a5e4-c295fdbc6eac.png)
 
-This was my created WordPress page outside of my VM:
+This was my created WordPress page outside of my VM on my normal Firefox browser:
 
 ![Website](https://user-images.githubusercontent.com/114512130/201203264-a95f1ffe-f2de-425f-adc3-f0b6d730da5a.png)
