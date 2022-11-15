@@ -1,7 +1,7 @@
 # Installing WordPress via Docker
 Here is a link to my repo: [https://github.com/rhk7913/docker.github.io](url)
 
-This page will outline how to install WordPress through Docker and Docker Compose
+This page will outline how to install WordPress through Docker and Docker Compose.
 
 # Pre-installation
 You will need to download the latest version of Ubuntu to install and use WordPress on VM.
@@ -24,7 +24,7 @@ Fill out the Easy Install Information.
 
 Name your virtual machine, preferably something that references Ubuntu.
 
-Set the maximum disk size to 25 GB and select "Split virtual disk as a single file" for the specified disk capacity step.
+Set the maximum disk size to 25 GB and select "Store virtual disk as a single file" for the specified disk capacity step.
 
 Select "Customize Hardware..." and set the memory to 6 GB.
 
@@ -34,7 +34,7 @@ After powering on the VM (it might take a while), complete the following steps:
 
 1. On the Choose the correct keyboard layout page, select your desired keyboard (I used English (US)) and hit Continue.
 
-2. On the Updates and Other Software page, select Normal Installation for "What apps would you like to install to start with?" and Download updates while installing Ubuntu for "Other options" and hit Continue. 
+2. On the Updates and Other Software page, select Normal Installation for "What apps would you like to install to start with?" and Download updates while installing Ubuntu for "Other options" and hit Continue. (**Note:** You can still select the third party option, however I noticed it extended the time it took to finish the installation process.)
 
 3. On the Installation Type page, select Erase disk and install Ubuntu and hit Install Now. (**Note:** Erase disk and install Ubuntu will only erase the content on the VM since it is isolated.)
 
@@ -42,8 +42,7 @@ After powering on the VM (it might take a while), complete the following steps:
 
 5. On the Where are you? page, click the region closest to your time zone (I selected Chicago) and hit Continue.
 
-6. On the Who are you? page, enter information for each field and hit Continue.
-**Note:** It is recommended to require your password to log in on each attempt and not to login automatically.
+6. On the Who are you? page, enter information for each field and hit Continue. (**Note:** It is recommended to require your password to log in on each attempt and not to login automatically.)
 
 7. Let the installation process finish (it may take a while). Once the Installation Complete page appears, hit Restart Now.
 
@@ -85,7 +84,7 @@ This was my Docker Compose version:
 
 ![Ubuntu 64-bit (2)-2022-11-10-10-07-22](https://user-images.githubusercontent.com/114512130/201163472-062faeb6-04d0-4208-9c48-6d84b25f64ec.png)
 
-## Note
+# Note
 
 I used the following references, [https://linuxiac.com/wordpress-with-docker/](url) and [https://www.linode.com/docs/guides/wordpress-with-docker-compose/](url), for the remaining steps. 
 
@@ -122,12 +121,12 @@ The following command will switch you to the root user:
 sudo -s
 ```
 
-The following command will create a docker-compose.YAML file for you to edit:
+The following command will create a docker-compose.yaml file for you to edit:
 ```
 vim docker-compose.yaml
 ```
 
-Insert the following to the docker-compose.YAML file using the Insert key:
+Insert the following to the docker-compose.yaml file using the Insert key:
 ```
 version: '3'
 services:
@@ -196,7 +195,7 @@ To access WordPress, open up a web browser of your choice and enter either [http
 
 This is what my WordPress page looked like for both choices (they have the same interface):
 
-http://localhost:8080: 
+[http://localhost:8080](url): 
 
 ![Ubuntu 64-bit (2)-2022-11-08-10-12-34](https://user-images.githubusercontent.com/114512130/201168213-16f98f37-b38f-411e-aa70-6ee82cf423a6.png)
 
@@ -214,10 +213,10 @@ This was my Admin Interface:
 
 Afterwards, you should be able to make a WordPress page!
 
-This was my WordPress page on the VM:
+This was my created WordPress page on the VM:
 
 ![Ubuntu 64-bit (2)-2022-11-10-14-56-18](https://user-images.githubusercontent.com/114512130/201204212-6f8f0582-ada6-4670-a5e4-c295fdbc6eac.png)
 
-This was my WordPress page outside of my VM:
+This was my created WordPress page outside of my VM:
 
 ![Website](https://user-images.githubusercontent.com/114512130/201203264-a95f1ffe-f2de-425f-adc3-f0b6d730da5a.png)
